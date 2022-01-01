@@ -110,7 +110,7 @@ add_action('pre_get_posts', 'university_adjust_queries');
 
 function universityMapKey($api)
 {
-  $api['key'] = 'AIzaSyA2QPoM7xsBwt5JgY4OwfxWZfU9lWXwh_8';
+  $api['key'] = 'secret_key';
   return $api;
 }
 
